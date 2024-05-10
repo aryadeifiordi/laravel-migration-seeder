@@ -20,7 +20,7 @@
     <ul>
         @foreach ($trains as $train)
             <li>
-                <strong>Orario di partenza:</strong> {{ $train->stazione_partenza }}<br>
+                <strong>Orario di partenza:</strong> {{ $train->orario_partenza }}<br>
             </li>
         @endforeach
     </ul>
